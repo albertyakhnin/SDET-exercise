@@ -1,0 +1,33 @@
+Method to return the length and longest words in a sentence
+
+Example “The cow jumped over the moon.”
+Possible test case scenarios 
+
+In this sentence string can be
+a) Can be a space  between words  “   ad            huu            lll      “
+b) It could be not a word (1234567897852) 
+c) It could the  alphanumeric combination (ase45gh ,  67tt, jgiyo9 )
+d) It could be  a  word with special characters (%, $, ‘)
+e) It could be only one long word string  “Thecowjumpedoverthemoon”
+f) It could be a sentence where  all words have the  same length ( one two one two)
+g) It could be coma , after word too (cat, cat cat: cat&)
+h) It could be math formula “(12 *5) + (45/5) -7 +7”
+i) Blank/null string
+1)	     Whitespace only
+2)	      All ASCII/ANSI characters 0-255
+3)	      Extended Ascii characters (e.g. in Outlook)
+4)	      Very long strings (suggest using perlclip to generate a counterstring, eg 2*4*6*8*11*14*17*20*
+5)	      Only one character
+6)	       Unicode characters
+7)	        SQL injection
+8)	       Cross-site scripting, Cross-site request forgery
+9)	     Can be a space  between words  “   ad            huu            lll      “
+10)	   	It could be not a word (1234567897852)
+11)		It could the  alphanumeric combination (ase45gh ,  67tt, jgiyo9 )
+12)		It could be  a  word with special characters (%, $, ‘)
+13)		It could be only one long word string  “Thecowjumpedoverthemoon”
+14)		It could be a sentence where  all words have the  same length ( one two one two)\
+15)	iIt could be  math formula “(12 *5) + (45/5) -7 +7”
+16)	It could be coma , after word too (cat, cat cat: cat&)
+
+
